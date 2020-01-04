@@ -13,7 +13,7 @@
   "scripts": {
     "lint": "tslint -p . --type-check",
     "test": "jest",
-    "generate": "node ./scripts/generate.js > ./README.md"
+    "generate": "node ./scripts/generate.js > ./emoji.json"
   },
   "dependencies": {
     "cheerio": "^0.22.0",

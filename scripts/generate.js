@@ -1,5 +1,5 @@
 const { getCategorizeGithubEmojiIds } = require("./fetch");
-const { generateCheatSheet } = require("./markdown");
+const { generateCheatSheet } = require("./json");
 
 async function generate() {
   return generateCheatSheet(await getCategorizeGithubEmojiIds());
